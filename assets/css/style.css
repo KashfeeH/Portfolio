@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -9,15 +11,59 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
+header{
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ header h1{
+  padding-left: 70px;
+  font-family: pacifico;
+ }
+
+ nav ul{
+  margin: 20px;
+  display: flex;
+  list-style-type: none;
+ }
+  nav ul li a{
+    font-size: 18px;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .hero-banner{
+    background-image: url(/assets/images/pattern.jpg);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+         
+  }
+  .image{
+    background-image: url(/assets/images/cat.jpg);
+    height: 300px;
+    width: 500px;
+    margin-left: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 150px;
+  }
+
+
+
