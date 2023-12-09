@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -9,10 +10,27 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: #c4c4ce;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  text-align: center;
+}
+
+
+}
+a{
+  font-size: 24px;
+  color: rgb(8, 7, 7);
+  text-decoration-color:black ;
+  transition: 0.7s;
+}
+a:hover{
+  color: blueviolet;
+  text-decoration-color: black;
+  text-underline-offset:1rem;
+  text-decoration: underline;
 }
 
 p{
@@ -21,40 +39,40 @@ p{
  }
 
 header{
-  background-image: url(/assets/images/pattern.jpg);
-  background-repeat: repeat;
+  background-color: #c4c4ce;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
  }
 
- header h1{
+header h1{
   padding-left: 70px;
   font-family: pacifico;
   color: #1F271B;
  }
 
- nav ul{
+nav ul{
   margin: 20px;
   display: flex;
   list-style-type: none;
  }
-  nav ul li a{
-    font-size: 18px;
+nav ul li a{
+  font-size: 18px;
     margin: 20px;
     text-decoration: none;
     font-weight: bold;
   }
 
-  .hero-banner{
-    background-image: url(/assets/images/pattern.jpg);
-    background-repeat: repeat;
+.hero-banner{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
+    background-color: #c4c4ce;
   }
 
-  .header{
+.subtitle{
+    background-color: #c4c4ce;
     margin-right: 100px;
     display: flex;
     align-items: center;
@@ -62,46 +80,118 @@ header{
     margin-left: 20px;
             
   }
-  .image{
-    background-image: url(/assets/images/cat.jpg);
-    height: 250px;
-    width: 250px;
+.image{
+    background-image: url(/assets/images/kashfee1.jpg);
+    height: 200px;
+    width: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 175px;
+    border-radius: 100px;
   }
   
-  .header h2{
+.subtitle h2{
     width: 600px;
     text-align: center;
    }
 
-   .heading{
+.heading{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-family: pacifico;
-    background-image: url(/assets/images/pattern.jpg);
-      background-repeat: repeat; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
    }
-   .page-section{
-      display: flex;
-      align-items: center; 
-      justify-content: center;
-      background-image: url(/assets/images/pattern.jpg);
-      background-repeat: repeat; 
-    }
+.page-wrapper{
+    background-color: #c4c4ce;
+   }
+
+.page-section{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+  }
        
-    .education{
-      padding: 20px;
+.education-info{
       text-align: center;
       width: 800px;
-      margin-bottom: 30px;
-      
+    }
+    
+.project-container{
+    display:grid;
+    grid-template-rows: 0.7fr 0.5fr;
+    column-gap: 20px;            
+  }
+
+.project1{
+      display: flex;
+      justify-content: space-evenly;
     }
 
+ .projects{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+       
+.image1{
+      height: 600px;
+      width: 600px;
+      border: solid;
+      border-radius: 2px;
+      }
+
+.image1:hover{
+   opacity: 0.7;
+      }      
+
+ .image2{
+  height: 400px;
+  width: 400px;
+  border: solid;
+  border-radius: 2px;
+  margin-left: 20px;
+    }
+
+  .image2:hover{
+    opacity: 0.7;
+      }
+
+.image3{
+   height: 400px;
+   width: 400px;
+   border: solid;
+   border-radius: 2px;
+   margin-left: 20px;
+   }
+        
+.image3:hover{
+  opacity: 0.7;
+  }
+
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons img{
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+.footer-nav ul{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.footer-nav ul li{
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+        
   
 
   
