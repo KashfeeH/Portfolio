@@ -15,8 +15,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+p{
+  font-size: 17px;
+  line-height: 140%;
+ }
+
 header{
-  background-color: aliceblue;
+  background-image: url(/assets/images/pattern.jpg);
+  background-repeat: repeat;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -26,6 +32,7 @@ header{
  header h1{
   padding-left: 70px;
   font-family: pacifico;
+  color: #1F271B;
  }
 
  nav ul{
@@ -44,7 +51,7 @@ header{
     background-image: url(/assets/images/pattern.jpg);
     background-repeat: repeat;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .header{
@@ -52,18 +59,53 @@ header{
     display: flex;
     align-items: center;
     font-size: 30px;
-         
+    margin-left: 20px;
+            
   }
   .image{
     background-image: url(/assets/images/cat.jpg);
-    height: 300px;
-    width: 500px;
-    margin-left: 70px;
+    height: 250px;
+    width: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 150px;
+    border-radius: 175px;
   }
+  
+  .header h2{
+    width: 600px;
+    text-align: center;
+   }
+
+   .heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: pacifico;
+    background-image: url(/assets/images/pattern.jpg);
+      background-repeat: repeat; 
+    
+   }
+   .page-section{
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      background-image: url(/assets/images/pattern.jpg);
+      background-repeat: repeat; 
+    }
+       
+    .education{
+      padding: 20px;
+      text-align: center;
+      width: 800px;
+      margin-bottom: 30px;
+      
+    }
+
+  
+
+  
+
 
 
 
