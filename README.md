@@ -24,6 +24,7 @@ and I will get there. My portfolio resembles the mockup functionalty that was pr
 
 ###  Usage
 
+Please navigate to https://kashfeeh.github.io/Portfolio/ 
 
 ### Contributions
 As always, as I am a complete novice in this field, any contributions to improve or correct the work would be highly appreciated. The repository is public. So if you have comments 
