@@ -53,7 +53,7 @@ p{
 
 /* .......................Begin styling main logo/Nav section ......................... */  
  header{
-  background-image: url("/assets/images/florals2.jpg");
+  background-image: url("../images/florals2.jpg");
   background-repeat: repeat;
   width: 100%;
   display: var(--display);
@@ -99,7 +99,7 @@ nav ul li a{
   }
 
   .image-left{
-    background-image: url("/assets/images/kashfee.jpg");
+    background-image: url("../images/kashfee.jpg");
     height: 200px;
     width: 200px;
     background-position: center;
@@ -121,7 +121,7 @@ nav ul li a{
 
 .page-wrapper{
     background-color: var(--bg-color);
-    background-image: url("/assets/images/florals2.jpg");
+    background-image: url("../images/florals2.jpg");
     background-position: center;
     background-repeat: repeat;
   }
@@ -235,7 +235,7 @@ h2{
 header{
  justify-content: center;
  background-image: none;
- background-color: #DBBDBE;
+ background-color: #c5a7a8;
  flex-flow: wrap;
 }
 
